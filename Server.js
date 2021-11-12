@@ -11,7 +11,7 @@ app.listen(PORT);
 console.log(`Server is running on port ${PORT}`);
 
 app.use("/book", bookRoutes);
-app.use("/members", memberRoutes);
+app.use("/member", memberRoutes);
 
 
 
